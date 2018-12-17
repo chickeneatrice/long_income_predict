@@ -1,0 +1,2 @@
+# long_income_predict
+使用线性回归模型完成移动公司长期收入预估
