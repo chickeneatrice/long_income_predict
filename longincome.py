@@ -6,7 +6,7 @@ from sklearn import linear_model
 data = pd.read_csv('longincome.csv')
 
 print(data.columns)
-
+#通过分析三年来的增幅变化趋势 选取了下面几个参数作为特征
 clo_list = ['第三产业生产总值',
         '城镇居民消费支出', '城镇居民消费支出.1', '农村居民消费支出', '农村消费支出',
         '固定电话年末用户数', '移动电话年末用户数', '互联网宽带接入用户数']
