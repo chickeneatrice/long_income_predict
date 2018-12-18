@@ -30,6 +30,7 @@ lr.fit(features_train, target_train)
 
 
 #https://blog.csdn.net/little_bobo/article/details/78861578
+#版本变更导致输入参数的类型变化
 y = lr.predict(features_test.reshape(1, -1))
 
 print(y)
